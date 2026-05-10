@@ -1,7 +1,62 @@
 [
-    {
-        "id":1,
-        "name":"Product-1",
-        "price":500
-    }
+  {
+    "id": 1,
+    "name": "Wireless Bluetooth Headphones",
+    "price": 500,
+    "description": "This is a budget-friendly product suitable for everyday use."
+  },
+  {
+    "id": 2,
+    "name": "Smartphone Stand Holder",
+    "price": 750,
+    "description": "A reliable product with improved durability and performance."
+  },
+  {
+    "id": 3,
+    "name": "Portable Power Bank 20000mAh",
+    "price": 1200,
+    "description": "Premium quality product designed for high performance."
+  },
+  {
+    "id": 4,
+    "name": "USB LED Desk Lamp",
+    "price": 300,
+    "description": "An affordable option perfect for basic needs."
+  },
+  {
+    "id": 5,
+    "name": "Wireless Mouse",
+    "price": 950,
+    "description": "Well-balanced product offering good value for money."
+  },
+  {
+    "id": 6,
+    "name": "Mechanical Gaming Keyboard",
+    "price": 1500,
+    "description": "High-end product with advanced features and quality."
+  },
+  {
+    "id": 7,
+    "name": "Laptop Cooling Pad",
+    "price": 400,
+    "description": "Compact and efficient product for daily tasks."
+  },
+  {
+    "id": 8,
+    "name": "Smart Fitness Band",
+    "price": 1100,
+    "description": "Modern design product with enhanced usability."
+  },
+  {
+    "id": 9,
+    "name": "Portable Mini Speaker",
+    "price": 650,
+    "description": "Mid-range product suitable for regular usage."
+  },
+  {
+    "id": 10,
+    "name": "1080p HD Webcam",
+    "price": 2000,
+    "description": "Top-tier product offering excellent performance and durability."
+  }
 ]
