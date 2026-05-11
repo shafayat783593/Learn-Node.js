@@ -52,7 +52,12 @@ export const productController = async (req: IncomingMessage, res: ServerRespons
 
     else if (method === "POST" && url === "/products") {
         const body = await parseBody(req)
-const products = readProduct();
+        const products = readProduct();
+        const newProduct: IProduct = {
+            id: Date.now(),
+            ...body
+        };
+        products.push(newProduct);
         try {
 
             insertProduct({
@@ -60,7 +65,7 @@ const products = readProduct();
            ...body,
             })
 
-            sendResponse(res, 200, true, "Product created successfully",)
+            sendResponse(res, 200, true, "Product created successfully", newProduct)
 
         } catch (error) {
             sendResponse(res, 500, false, "Something went wront", error)
