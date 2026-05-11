@@ -6,12 +6,6 @@
     "description": "This is a budget-friendly product suitable for everyday use."
   },
   {
-    "id": 2,
-    "name": "Smartphone Stand Holder",
-    "price": 750,
-    "description": "A reliable product with improved durability and performance."
-  },
-  {
     "id": 3,
     "name": "Portable Power Bank 20000mAh",
     "price": 1200,
@@ -49,14 +43,14 @@
   },
   {
     "id": 9,
-    "name": "Portable Mini Speaker",
-    "price": 650,
-    "description": "Mid-range product suitable for regular usage."
+    "name": "Mechanical Gaming Keyboard",
+    "price": 330,
+    "description": "High-end product with advanced features and quality."
   },
   {
     "id": 10,
-    "name": "1080p HD Webcam",
-    "price": 2000,
-    "description": "Top-tier product offering excellent performance and durability."
+    "name": "Mechanical Gaming Keyboard",
+    "price": 100,
+    "description": "High-end product with advanced features and quality."
   }
 ]
